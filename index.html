@@ -3,32 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Alterou o título -->
     <title>Agência de Viagens</title>
+    <!-- Link para o CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link para o favicon -->
     <link rel="shortcut icon" href="img/icons.png" type="image/x-icon">
 </head>
 <body>
+    <!-- TAG semântica para cabeçalho -->
     <header>
-        <h1>Agência de Viagens</h1>
+        
+        <h1 id="inicio">Agência de Viagens ✈</h1>
+
+        <!-- TAG semântica para barra de navegação -->
         <nav>
-            <a href="#inicio">Inicio</a>
+            <a href="#inicio">Início</a>
             <a href="#destinos">Destinos</a>
             <a href="#pacotes">Pacotes</a>
-            <a href="#contatos">Contatos</a>
+            <a href="#contatos">Contato</a>
         </nav>
     </header>
+
     <div class="container">
+        <!-- TAG semântica para informações na lateral -->
+        <!-- Destinos populares -->
         <aside class="sidebar">
             <h2 class="destinos">Destinos populares</h2>
             <ul>
-                <li><img src="img/paris.jpg" alt="Paris">Paris,FR</li>
-                <li><img src="img/ny.jpg" alt="Nova York">Nova York,US</li>
+                <li><img src="img/paris.jpg" alt="Paris">Paris, FR</li>
+                <li><img src="img/ny.jpg" alt="Nova York">Nova York, US</li>
                 <li><img src="img/riojaneiro.jpg" alt="Rio de Janeiro">Rio de Janeiro, BR</li>
-                <li><img src="img/roma.jpg" alt="Roma">Roma,IT</li>
+                <li><img src="img/roma.jpg" alt="Roma">Roma, IT</li>
                 <li><img src="img/tokio.jpg" alt="Tóquio">Tóquio, JP</li>
             </ul>
         </aside>
-    <!-- Tag semântica para sessões extra (poderia ser um main)-->
+
+        <!-- TAG semântica para sessões extras -->
         <section class="main-content">
             <h2 class="subtittle">Encontre o seu destino</h2>
             <form>
@@ -37,8 +48,9 @@
                 <button type="submit">Procurar</button>
             </form>
         </section>
+
         <aside class="secondary">
-            <h2 id="pacotes">Pacotes em Produção</h2>
+            <h2 id="pacotes">Pacotes em Promoção</h2>
             <ul>
                 <li><img src="img/cancun.jpg" alt="Cancun">
                     <b>Praias paradisíacas!</b>
@@ -55,6 +67,8 @@
             </ul>
         </aside>
     </div>
+
+    <!-- TAG semântica para rodapé -->
     <footer>
         <p id="contatos">&copy; 2025 Agência de Viagens - Contato: contato@agenciaviagens.com</p>
     </footer>
